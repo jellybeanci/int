@@ -1,0 +1,25 @@
+{
+  "name": "@jellybeanci/int",
+  "version": "0.1.1",
+  "description": "Basic int converter",
+  "main": "index.js",
+  "scripts": {
+    "build": "date +\"%T\" && echo \"Cleaning...\" && rm -rf ./js && echo \"Compiling...\" && tsc && echo \"Done!\" && date +\"%T\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellybeanci/int.git"
+  },
+  "keywords": [
+    "basic",
+    "int",
+    "casting"
+  ],
+  "homepage": "https://github.com/jellybeanci/int#readme",
+  "author": "Goksel KUCUKSAHIN <gokselkucuksahin@gmail.com> (https://github.com/GokselKUCUKSAHIN)",
+  "bugs": {
+    "url": "https://github.com/jellybeanci/int/issues"
+  },
+  "license": "MIT"
+}

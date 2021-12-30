@@ -1,0 +1,1 @@
+export declare function int(number: number | string): number;
