@@ -1,40 +1,42 @@
-# int
+# index
 
-<a href="https://www.npmjs.com/package/@jellybeanci/int/"><img src="res/npm-banner.png" width="300" alt="npm"/></a>
+<a href="https://www.npmjs.com/package/@jellybeanci/index/"><img src="res/npm-banner.png" width="300" alt="npm"/></a>
 
 Integer type caster module for JavaScript/TypeScript.
 
 ```bash
-npm i @jellybeanci/int
+npm i @jellybeanci/index
 ```
 
 ### import module
 ```js
 // ES6 Syntax
-import {int} from "@jellybeanci/int";
+import {index} from "@jellybeanci/index";
 
 // Commonjs Syntax
-const {int} = require("@jellybeanci/int");
+const {index} = require("@jellybeanci/index");
 
 // Commonjs with custom name
-const integer = require("@jellybeanci/int").int;
+const integer = require("@jellybeanci/index").index;
 ```
 ### usage
-```js
-const integerNumber = int(floatingPointNumber);
 
-const parsedIntegerNumber = int(stringNumber);
+```js
+const integerNumber = index(floatingPointNumber);
+
+const parsedIntegerNumber = index(stringNumber);
 ```
 
 ### demo
+
 ```js
-console.log(int(3.1415)); // 3
+console.log(index(3.1415)); // 3
 
-console.log(int(-6.2342)); // -6
+console.log(index(-6.2342)); // -6
 
-console.log(int("25.3")); // 25
+console.log(index("25.3")); // 25
 
-console.log(int("not a number")); // 0
+console.log(index("not a number")); // 0
 ```
 
 ### types
